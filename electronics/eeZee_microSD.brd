@@ -1967,7 +1967,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP4" library="mes_electromech" package="BIGPIN-2" value="PWR" x="12.954" y="8.128" smashed="yes" rot="MR90">
 <attribute name="DATABASE" value="./../../../eagle/PARTSDB.TXT" x="12.954" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="U3" library="SparkFun-Connectors" package="MICROSD_1:1" value="USD-SOCKET" x="2.286" y="13.462" smashed="yes">
+<element name="U3" library="SparkFun-Connectors" package="MICROSD_1:1" value="USD-PUSHPULL" x="2.286" y="13.462" smashed="yes">
 <attribute name="PROD_ID" value="CONN-07820" x="2.286" y="13.462" size="1.778" layer="27" display="off"/>
 </element>
 </elements>

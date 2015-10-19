@@ -7143,7 +7143,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="JP2" library="mes_electromech" deviceset="PINHEAD-2" device="BIG" value="PWR"/>
 <part name="JP5" library="mes_electromech" deviceset="PINHEAD-2" device="BIG" value="PWR"/>
 <part name="JP4" library="mes_electromech" deviceset="PINHEAD-2" device="BIG" value="PWR"/>
-<part name="U3" library="SparkFun-Connectors" deviceset="USD-SOCKET" device=""/>
+<part name="U3" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="" value="USD-PUSHPULL"/>
 </parts>
 <sheets>
 <sheet>
@@ -7151,7 +7151,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <text x="181.864" y="146.05" size="1.778" layer="97">Note: select to regulate VCC down to 3.3V or</text>
 <text x="181.864" y="143.51" size="1.778" layer="97">to bypass regulator and send VCC direct to the microSD</text>
 <text x="153.924" y="23.114" size="3.81" layer="94">eeZee microSD</text>
-<text x="231.14" y="22.86" size="3.81" layer="94">0.2</text>
+<text x="231.14" y="22.86" size="3.81" layer="94">0.3A</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="190.5" y="124.46"/>

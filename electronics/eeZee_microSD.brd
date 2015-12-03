@@ -1584,22 +1584,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SJ_3">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
-<smd name="1" x="-0.889" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.889" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="SO016">
 <wire x1="4.8768" y1="1.9463" x2="-4.8768" y2="1.9463" width="0.2032" layer="21"/>
 <wire x1="4.9768" y1="-1.9463" x2="5.2578" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
@@ -1925,10 +1909,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="0.254" y="4.699" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="U4" library="bt_electromech" package="USD_SMALL" value="MICROSD_CD" x="9.652" y="9.652" smashed="yes" rot="R180"/>
-<element name="REG" library="SparkFun" package="SJ_3" value="BYP" x="15.367" y="7.747" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17.145" y="6.731" size="0.8128" layer="26" font="vector" rot="MR90"/>
-<attribute name="VALUE" x="13.589" y="8.89" size="0.8128" layer="28" font="vector" rot="MR270"/>
-</element>
 </elements>
 <signals>
 <signal name="SCK_HV">
@@ -2060,15 +2040,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.065" y1="9.437" x2="10.707" y2="9.437" width="0.4064" layer="16"/>
 <wire x1="10.707" y1="9.437" x2="10.541" y2="9.271" width="0.4064" layer="16"/>
 <wire x1="10.541" y1="8.249" x2="10.541" y2="9.271" width="0.4064" layer="16"/>
-<contactref element="REG" pad="2"/>
-<wire x1="15.367" y1="7.747" x2="15.367" y2="6.35" width="0.4064" layer="16"/>
+<contactref element="U1" pad="5"/>
+<wire x1="12.065" y1="9.437" x2="16.317" y2="13.2381" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VIN">
 <contactref element="JP1" pad="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U1" pad="3"/>
 <contactref element="U1" pad="1"/>
-<contactref element="REG" pad="3"/>
 <wire x1="16.317" y1="10.6379" x2="16.317" y2="11.496" width="0.4064" layer="16"/>
 <wire x1="16.317" y1="11.496" x2="16.129" y2="11.684" width="0.4064" layer="16"/>
 <wire x1="14.417" y1="10.6379" x2="14.417" y2="11.496" width="0.4064" layer="16"/>
@@ -2078,10 +2057,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.217" y1="14.859" x2="16.217" y2="14.82" width="0.254" layer="16"/>
 <wire x1="16.217" y1="14.82" x2="15.367" y2="13.97" width="0.254" layer="16"/>
 <wire x1="15.367" y1="13.97" x2="15.367" y2="11.684" width="0.254" layer="16"/>
-<wire x1="14.478" y1="7.747" x2="14.478" y2="10.5769" width="0.4064" layer="16"/>
 <wire x1="14.478" y1="10.5769" x2="14.417" y2="10.6379" width="0.4064" layer="16"/>
-<wire x1="14.478" y1="7.747" x2="14.478" y2="1.778" width="0.4064" layer="16"/>
 <wire x1="14.478" y1="1.778" x2="14.224" y2="1.524" width="0.4064" layer="16"/>
+<wire x1="14.478" y1="1.778" x2="14.478" y2="10.5769" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CD">
 <contactref element="U4" pad="DET"/>
@@ -2099,15 +2077,6 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="2.413" y="14.224"/>
 </polygon>
 <wire x1="11.684" y1="1.524" x2="11.684" y2="6.985" width="0.254" layer="16"/>
-</signal>
-<signal name="N$1">
-<contactref element="U1" pad="5"/>
-<contactref element="REG" pad="1"/>
-<wire x1="16.256" y1="7.747" x2="16.256" y2="8.509" width="0.4064" layer="16"/>
-<wire x1="16.256" y1="8.509" x2="17.399" y2="9.652" width="0.4064" layer="16"/>
-<wire x1="16.317" y1="13.2381" x2="16.317" y2="12.512" width="0.4064" layer="16"/>
-<wire x1="16.317" y1="12.512" x2="17.399" y2="11.43" width="0.4064" layer="16"/>
-<wire x1="17.399" y1="11.43" x2="17.399" y2="9.652" width="0.4064" layer="16"/>
 </signal>
 </signals>
 <errors>

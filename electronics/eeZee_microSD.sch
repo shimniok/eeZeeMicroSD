@@ -7100,7 +7100,7 @@ no need to level shift</text>
 <attribute name="PARTNO" value="JMK212BJ226MG-T" x="119.38" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="119.38" y="38.1"/>
-<instance part="U$2" gate="G$1" x="157.48" y="165.1"/>
+<instance part="U$2" gate="G$1" x="160.02" y="165.1"/>
 <instance part="U$3" gate="G$1" x="119.38" y="91.44"/>
 <instance part="U$4" gate="G$1" x="43.18" y="88.9"/>
 <instance part="JP2" gate="A" x="200.66" y="109.22"/>
@@ -7330,7 +7330,7 @@ no need to level shift</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="144.78" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="160.02" y1="149.86" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="149.86" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>

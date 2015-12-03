@@ -6977,10 +6977,8 @@ no need to level shift</text>
 <net name="GND" class="0">
 <segment>
 <wire x1="38.1" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="68.58" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-<junction x="45.72" y="58.42"/>
-<wire x1="45.72" y1="58.42" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="68.58" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="60.96" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
 <junction x="45.72" y="55.88"/>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
@@ -6992,10 +6990,12 @@ no need to level shift</text>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="U4" gate="U1" pin="GND"/>
-<pinref part="U4" gate="U1" pin="POL"/>
 <pinref part="U4" gate="U1" pin="SHIELD2"/>
 <pinref part="U4" gate="U1" pin="SHIELD3"/>
 <pinref part="U4" gate="U1" pin="SHIELD4"/>
+<pinref part="U4" gate="U1" pin="DET"/>
+<wire x1="38.1" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<junction x="45.72" y="60.96"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -7120,9 +7120,9 @@ no need to level shift</text>
 </net>
 <net name="CD" class="0">
 <segment>
-<pinref part="U4" gate="U1" pin="DET"/>
-<wire x1="38.1" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
-<label x="58.42" y="60.96" size="1.778" layer="95" rot="MR0"/>
+<label x="58.42" y="58.42" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="U1" pin="POL"/>
+<wire x1="38.1" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="5"/>

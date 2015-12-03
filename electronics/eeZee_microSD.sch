@@ -7093,8 +7093,8 @@ no need to level shift</text>
 <instance part="C2" gate="G$1" x="170.18" y="142.24">
 <attribute name="PARTNO" value="JMK212BJ226MG-T" x="170.18" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="119.38" y="60.96">
-<attribute name="PARTNO" value="JMK212BJ226MG-T" x="119.38" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="C3" gate="G$1" x="119.38" y="68.58">
+<attribute name="PARTNO" value="JMK212BJ226MG-T" x="119.38" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="119.38" y="38.1"/>
 <instance part="U$2" gate="G$1" x="170.18" y="167.64"/>
@@ -7187,7 +7187,7 @@ no need to level shift</text>
 <wire x1="88.9" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="55.88" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="63.5" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 <junction x="119.38" y="43.18"/>
 <junction x="119.38" y="43.18"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
@@ -7294,7 +7294,7 @@ no need to level shift</text>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="81.28" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="81.28" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
 <wire x1="119.38" y1="81.28" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 <junction x="119.38" y="81.28"/>

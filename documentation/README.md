@@ -6,7 +6,7 @@ Want one? [Buy now on Tindie](https://www.tindie.com/products/edit/eezee-microsd
 
 ## Quick Start
 
- * Install D10-D13 pin headers (see *How to Assemble* below)
+ * Install pin headers (see *How to Assemble* below)
  * Install VIN and GND pin headers
  * Place next to breadboard Arduino matching D10-D13 pins
  * Connect power to VIN, GND to ground
@@ -31,11 +31,15 @@ Assembly is easy. And, you can learn how to solder at the same time. Review [Spa
 
 ### Pin Headers
 
-Install the adjacent 4-pin D10-D13, 2-pin VIN/GND headers in your breadboard.
+Install the pin headers.
+
+If a pad exists for D9 (some models), and if you want card detect, then install a 7-pin header in your breadboard.
+
+Otherwise, install in your breadboard a 2-pin header and 4-pin header separated by a single row.
 
 Place the eeZee MicroSD on top of the pin headers, socket side up.
 
-Solder D13 and VIN, holding the board level.
+Solder D13 and VIN, holding the board level. Adjust the level of the board if necessary.
 
 Then, solder the remaining pins.
 
@@ -49,17 +53,18 @@ Place the eeZee MicroSD into the board so these two new pins engage one of the V
 Solder the pins in place.
 
 ## Insert/Remove the MicroSD Card
-
 Open the flip lid version by first unlocking the lid by pushing forward toward the pin headers. Then, flip the lid up and remove the microSD card. To insert a card, place it in the socket with the lid up. Then close the lid, and pull it back away from the pin headers to lock it.
 
 To install or remove the card from a push/pull socket, push the microSD in until it stops, then release. This will either lock or unlock it. The action is similar to using a retractable ball point pen. Once unlocked, you can remove the card.
 
 ## Power Options
-You can power your board with 3.3V or with 5V. There's a solder jumper on the bottom of the board that you'll solder depending on the supply voltage.
+You can power your board with 3.3V or with 5V. You can use the breadboard power rails for a cleaner breadboard (see *Power Rail Pins* above) or you can just use jumpers to the VIN/GND pins.
 
-For a 5V supply, solder the REG side of the jumper. For a 3.3V supply, solder the BYP side of the jumper.
+### Very Important Note
 
-You can supply voltage from using the breadboard power rails (see *Power Rail Pins* above) or by using jumpers to the VIN/GND pins.
+**DO NOT** solder the BYP side of the solder jumper. Otherwise, the regulator will overheat and draw excessive current.
+
+**The jumper MUST be soldered on the REG side**. This allows the board to provide 3.3V to the microSD card onboard whether the input voltage is 5V or 3.3V.
 
 ## Code Examples and Documentation
 * [Arduino SD library reference](https://www.arduino.cc/en/Reference/SD)

@@ -369,7 +369,7 @@ https://goo.gl/NyRXp9</text>
 <text x="5.588" y="4.064" size="1.27" layer="26" font="vector" rot="MR0" align="center-right">MISO</text>
 <text x="5.588" y="1.524" size="1.27" layer="26" font="vector" rot="MR0" align="center-right">SCK</text>
 <text x="5.588" y="11.684" size="1.27" layer="26" font="vector" rot="MR0" align="center-right">!CD</text>
-<text x="11.39" y="11.701" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">BYP</text>
+<text x="11.009" y="11.574" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">SD</text>
 <text x="11.39" y="16.019" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">REG</text>
 </plain>
 <libraries>
@@ -1928,10 +1928,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U2" library="SparkFun" package="SO016" value="74HC4050" x="14.732" y="6.096" smashed="yes" rot="R270">
 <attribute name="VALUE" x="14.351" y="8.509" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C3" library="rcl" package="C0603" value="104" x="12.8828" y="12.219" smashed="yes">
-<attribute name="PARTNO" value="LMK107B7105KA-T" x="12.8828" y="12.219" size="1.778" layer="27" display="off"/>
-<attribute name="DATABASE" value="./../../../eagle/PARTSDB.TXT" x="12.8828" y="12.219" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="12.9" y="13" size="0.6096" layer="27" font="vector" ratio="10" align="bottom-center"/>
+<element name="C3" library="rcl" package="C0603" value="104" x="12.7558" y="12.473" smashed="yes">
+<attribute name="PARTNO" value="LMK107B7105KA-T" x="12.7558" y="12.473" size="1.778" layer="27" display="off"/>
+<attribute name="DATABASE" value="./../../../eagle/PARTSDB.TXT" x="12.7558" y="12.473" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.773" y="13.254" size="0.6096" layer="27" font="vector" ratio="10" align="bottom-center"/>
 </element>
 <element name="JP2" library="pinhead-2" package="1X02-S" value="PWR" x="1.524" y="15.494" smashed="yes" rot="R90"/>
 <element name="JP4" library="pinhead-2" package="1X05-S" value="" x="4.191" y="6.604" smashed="yes" rot="R90">
@@ -2072,9 +2072,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.7" y1="10.5" x2="11.973" y2="10.5" width="0.254" layer="1"/>
 <wire x1="11.973" y1="10.5" x2="11.932" y2="10.541" width="0.254" layer="1"/>
 <wire x1="11.932" y1="10.541" x2="11.932" y2="12.1182" width="0.254" layer="1"/>
-<wire x1="11.932" y1="12.1182" x2="12.0328" y2="12.219" width="0.254" layer="1"/>
+<wire x1="11.932" y1="12.1182" x2="11.9058" y2="12.473" width="0.254" layer="1"/>
 <wire x1="11.814" y1="13.346" x2="11.8058" y2="12.446" width="0.254" layer="1"/>
-<wire x1="11.8058" y1="12.446" x2="12.0328" y2="12.219" width="0.254" layer="1"/>
+<wire x1="11.8058" y1="12.446" x2="11.9058" y2="12.473" width="0.254" layer="1"/>
 <contactref element="U1" pad="5"/>
 <contactref element="C1" pad="1"/>
 <wire x1="17.2021" y1="17.117" x2="16.538" y2="17.117" width="0.254" layer="1"/>
@@ -2108,9 +2108,9 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 <wire x1="25.019" y1="12.192" x2="25.019" y2="14.826" width="0.254" layer="1"/>
 <wire x1="25.019" y1="14.826" x2="25.039" y2="14.546" width="0.254" layer="1"/>
-<wire x1="4.191" y1="11.684" x2="10.668" y2="11.684" width="0.254" layer="1"/>
-<via x="10.668" y="11.684" extent="1-16" drill="0.3302"/>
-<wire x1="10.668" y1="11.684" x2="24.13" y2="11.684" width="0.254" layer="16"/>
+<wire x1="4.191" y1="11.684" x2="10.16" y2="11.684" width="0.254" layer="1"/>
+<via x="10.16" y="11.684" extent="1-16" drill="0.3302"/>
+<wire x1="10.16" y1="11.684" x2="24.13" y2="11.684" width="0.254" layer="16"/>
 <via x="24.13" y="11.684" extent="1-16" drill="0.3302"/>
 <wire x1="24.13" y1="11.684" x2="24.511" y2="11.684" width="0.254" layer="1"/>
 <wire x1="24.511" y1="11.684" x2="25.019" y2="12.192" width="0.254" layer="1"/>
